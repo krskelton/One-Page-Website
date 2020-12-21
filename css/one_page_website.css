@@ -1,0 +1,31 @@
+/*-------------------------------------------
+    GENERAL SYLES
+--------------------------------------------*/
+body{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 14px;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 20px;
+}
+/*-------------------------------------------
+    FORM SYLES
+--------------------------------------------*/
+input.rsvp {
+    display: block;
+    width: 85%;
+    height: 30px;
+    margin: 5%;
+    font-size: 18px;
+    padding: 5px 10px;
+    position: relative;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+}
+form {
+    margin: 0 auto;
+    width: 50%;
+}
