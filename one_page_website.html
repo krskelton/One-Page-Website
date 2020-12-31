@@ -2,208 +2,275 @@
 <html lan="en">
     <head>
         <meta charset="utf-8">
-        <title>Puppy Love | Resort</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+        <title>Puppy Playhouse | Resort</title>
         <link rel="stylesheet" type="text/css" href="css/one_page_website.css">
     </head>
     <body>
-        <!-- NAV -->
-        <nav>
-            <ul>
-                <a href="#home" id="link"><li>Home</li></a>
-                <a href="#gallery"><li>Gallery</li></a>
-                <a href="#video"><li>Videos</li></a>
-                <a href="#contact"><li>Reservation</li></a>
-            </ul>
-        </nav>
-        <!-- END NAV -->
-        
-        <!-- HOME -->
+        <!--NAV-->
+        <div class="wrap">
+            <div class="menu-container">
+                <ul class="menu">
+                    <a href="#home"><li>HOME</li></a>
+                    <a href="#gallery"><li>GALLERY</li></a>
+                    <a href="#contact"><li>RESERVATIONS</li></a>
+                </ul>
+            </div>
+        </div>
+        <!--END NAV-->
+
+        <!--HOME-->
         <div id="home">
-            <div>
-                <div>
-                    <span><h1>Puppy Love</h1></span>
+            <div class="container">
+                <div class="text-center">
+                    <span class="head-main">The Puppy Playhouse</span>
                 </div>
             </div>
         </div>
-        <!-- END HOME -->
+        <!--END HOME-->
 
-        <!-- GALLERY -->
-        <section>
-            <div id="gallery">
+        <!--GALLERY-->
+        <div id="gallery">
+            <div class="container">
                 <h1>Gallery</h1>
-                <div>
-
-                    <!-- PHOTO-CONTAINER 1-->
-                    <div>
-                        <div>
-                            <img src="images/thumb/thumbnail_1.jpg" alt="brown dog with his tongue out">
-                            <div>
+                <div class="flex-container">
+                    <!--PHOTO CONTAINER 1-->
+                    <div class="photo-container" onclick="openModal();currentSlide(1)">
+                        <div class="photo">
+                            <img src="images/thumb/thumbnail_1.jpg" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
-                                <p>We have several puppies to meet with daily.</p>
+                                <p>We have several puppies to play with, make an appointment today.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- END PHOTO-CONTAINER 1-->
-
-                    <!-- PHOTO-CONTAINER 2-->
-                    <div>
-                        <div>
-                            <img src="images/thumb/thumbnail_2.jpg" alt="dog sitting on grass">
-                            <div>
+                    <!--END PHOTO CONTAINER 1-->
+                    <!--PHOTO CONTAINER 2-->
+                    <div class="photo-container" onclick="openModal();currentSlide(2)">
+                        <div class="photo">
+                            <img src="images/thumb/thumbnail_2.jpg" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
-                                <p>We have several puppies to meet with daily.</p>
+                                <p>We have several puppies to play with, make an appointment today.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- END PHOTO-CONTAINER 2-->
-
-                    <!-- PHOTO-CONTAINER 3-->
-                    <div>
-                        <div>
-                            <img src="images/thumb/thumbnail_3.jpg" alt="golden retriever puppies">
-                            <div>
+                    <!--END PHOTO CONTAINER 2-->
+                    <!--PHOTO CONTAINER 3-->
+                    <div class="photo-container" onclick="openModal();currentSlide(3)">
+                        <div class="photo">
+                            <img src="images/thumb/thumbnail_3.jpg" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
-                                <p>We have several puppies to meet with daily.</p>
+                                <p>We have several puppies to play with, make an appointment today.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- END PHOTO-CONTAINER 3-->
-
-                    <!-- PHOTO-CONTAINER 4-->
-                    <div>
-                        <div>
-                            <img src="images/thumb/thumbnail_4.jpg" alt="black and white dog with a very happy face">
-                            <div>
+                    <!--END PHOTO CONTAINER 3-->
+                    <!--PHOTO CONTAINER 4-->
+                    <div class="photo-container" onclick="openModal();currentSlide(4)">
+                        <div class="photo">
+                            <img src="images/thumb/thumbnail_4.jpg" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
-                                <p>We have several puppies to meet with daily.</p>
+                                <p>We have several puppies to play with, make an appointment today.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- END PHOTO-CONTAINER 4-->
-
-                    <!-- PHOTO-CONTAINER 5-->
-                    <div>
-                        <div>
-                            <img src="images/thumb/thumbnail_5.jpg" alt="wrinkled mastif puppy">
-                            <div>
+                    <!--END PHOTO CONTAINER 4-->
+                    <!--PHOTO CONTAINER 5-->
+                    <div class="photo-container" onclick="openModal();currentSlide(5)">
+                        <div class="photo">
+                            <img src="images/thumb/thumbnail_5.jpg" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
-                                <p>We have several puppies to meet with daily.</p>
+                                <p>We have several puppies to play with, make an appointment today.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- END PHOTO-CONTAINER 5-->
-
-                    <!-- PHOTO-CONTAINER 6-->
-                    <div>
-                        <div>
-                            <img src="images/thumb/thumbnail_6.jpg" alt="two dogs running in the trees with a stick one of their mouths">
-                            <div>
+                    <!--END PHOTO CONTAINER 5-->
+                    <!--PHOTO CONTAINER 6-->
+                    <div class="photo-container" onclick="openModal();currentSlide(6)">
+                        <div class="photo">
+                            <img src="images/thumb/thumbnail_6.jpg" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
-                                <p>We have several puppies to meet with daily.</p>
+                                <p>We have several puppies to play with, make an appointment today.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- END PHOTO-CONTAINER 6-->
-
-                    <!-- PHOTO-CONTAINER 7-->
-                    <div>
-                        <div>
-                            <img src="images/thumb/thumbnail_7.jpg" alt="gray pit bull puppy">
-                            <div>
+                    <!--END PHOTO CONTAINER 6-->
+                    <!--PHOTO CONTAINER 7-->
+                    <div class="photo-container" onclick="openModal();currentSlide(7)">
+                        <div class="photo">
+                            <img src="images/thumb/thumbnail_7.jpg" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
-                                <p>We have several puppies to meet with daily.</p>
+                                <p>WWe have several puppies to play with, make an appointment today.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- END PHOTO-CONTAINER 7-->
-
-                    <!-- PHOTO-CONTAINER 8-->
-                    <div>
-                        <div>
-                            <img src="images/thumb/thumbnail_8.jpg" alt="frenchie dog with his tongue out">
-                            <div>
+                    <!--END PHOTO CONTAINER 7-->
+                    <!--PHOTO CONTAINER 8-->
+                    <div class="photo-container" onclick="openModal();currentSlide(8)">
+                        <div class="photo">
+                            <img src="images/thumb/thumbnail_8.jpg" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
-                                <p>We have several puppies to meet with daily.</p>
+                                <p>We have several puppies to play with, make an appointment today.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- END PHOTO-CONTAINER 8-->
-
-                    <!-- PHOTO-CONTAINER 9-->
-                    <div>
-                        <div>
-                            <img src="images/thumb/thumbnail_9.jpg" alt="very young corgi puppy">
-                            <div>
+                    <!--END PHOTO CONTAINER 8-->
+                    <!--PHOTO CONTAINER 9-->
+                    <div class="photo-container" onclick="openModal();currentSlide(9)">
+                        <div class="photo">
+                            <img src="images/thumb/thumbnail_9.jpg" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
-                                <p>We have several puppies to meet with daily.</p>
+                                <p>We have several puppies to play with, make an appointment today.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- END PHOTO-CONTAINER 9-->
+                    <!--END PHOTO CONTAINER 9-->
                 </div>
             </div>
-        </section>
-        <!-- END GALLERY -->
-
-        <!-- VIDEOS -->
-        <div id="video">
-            <h1>Videos</h1>
-
-            <!--VIDEO CONTAINER 1-->
-            <div>
-                <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MRN21DyBchI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-            <!--END VIDEO CONTAINER 1-->
-
-            <!--VIDEO CONTAINER 2-->
-            <div>
-                <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HWYciml06xs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-            <!--END VIDEO CONTAINER 2-->
-
         </div>
-        <!-- END HOME -->
+        <!--END GALLERY-->
 
-        <!-- RSVP -->
-        <section>
-            <div id="contact">
-                <div>
-                    <h1>Reservations</h1>
-                    <div>
-                        <h2><span>Your adventure is just around the moon.</span><br/>Reserve your flight today!</h2>
-                        <p>Please provide us with your basic contact information.</p>
-                        <div>
+         <!-- MODAL/LIGHTBOX -->
+         <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+        
+                <div class="mySlides">
+                    <div class="numbertext">1 / 9</div>
+                    <img src="images/thumb/thumbnail_1.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">2 / 9</div>
+                    <img src="images/thumb/thumbnail_2.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">3 / 9</div>
+                    <img src="images/thumb/thumbnail_3.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">4 / 9</div>
+                    <img src="images/thumb/thumbnail_4.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 9</div>
+                    <img src="images/thumb/thumbnail_5.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 9</div>
+                    <img src="images/thumb/thumbnail_6.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 9</div>
+                    <img src="images/thumb/thumbnail_7.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 9</div>
+                    <img src="images/thumb/thumbnail_8.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 9</div>
+                    <img src="images/thumb/thumbnail_9.jpg" style="width:100%">
+                </div>
+            
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                <!-- Caption text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+            
+                <!-- Thumbnail image controls -->
+                <div class="column">
+                    <img class="demo" src="images/thumb/thumbnail_1.jpg" onclick="currentSlide(1)" alt="Hank">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="images/thumb/thumbnail_2.jpg" onclick="currentSlide(2)" alt="Cameron">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="images/thumb/thumbnail_3.jpg" onclick="currentSlide(3)" alt="The Quadruplets">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="images/thumb/thumbnail_4.jpg" onclick="currentSlide(4)" alt="Bilbo">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="images/thumb/thumbnail_5.jpg" onclick="currentSlide(5)" alt="Reese's">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="images/thumb/thumbnail_6.jpg" onclick="currentSlide(6)" alt="Cali and Kaia">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="images/thumb/thumbnail_7.jpg" onclick="currentSlide(7)" alt="Baby">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="images/thumb/thumbnail_8.jpg" onclick="currentSlide(8)" alt="Mr. Man">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="images/thumb/thumbnail_9.jpg" onclick="currentSlide(9)" alt="Presley">
+                </div>
+            </div>
+        </div>
+        <!-- END MODAL/LIGHTBOX -->
+
+        <!--RSVP-->
+        <div id="contact">
+            <div class="container">
+                <div class="heading-padding">
+                    <h1 class="heading-padding">Reservations</h1>
+                    <div class="reservation">
+                        <h2><span>Your place to escape from life and play with puppies.</span><br/>Reseve your time today!</h2>
+                        <p class="rsvp-text">Please provide us with your basic contact information.</p>
+                        <div class="form-wrap">
                             <form action="" method="post">
-                                <input class="rsvp" type="text" value="First Name">
-                                <input class="rsvp" type="text" value="Last Name">
-                                <input class="rsvp" type="email" value="Email Address">
-                                <input class="rsvp" type="text" value="Phone Number">
+                                <input class="rsvp" type="text" value="" placeholder="First Name">
+                                <input class="rsvp" type="text" value="" placeholder="Last Name">
+                                <input class="rsvp" type="text" value="" placeholder="Email Address">
+                                <input class="rsvp" type="text" value="" placeholder="Phone Number">
                                 <div class="form-spacer">
                                     <label class="terms">Terms and Conditions</label>
                                 </div>
-                                <div>
+                                <div class="submit">
                                     <input type="submit" value="Submit">
-                                </div>
+                                </div> 
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- END RSVP -->
+        </div>
+        <!--END RSVP-->
 
-        <!-- FOOTER -->
-        <footer>
-            <div>
-                www.puppies.com &nbsp;|&nbsp; &copy; 2020
-            </div>
-        </footer>
-        <!-- END FOOTER -->
+        <!--FOOTER-->
+        <div id="footer">
+            www.puppyplayhouse.play &nbsp;|&nbsp; &copy; 2020
+        </div>
+        <!--END FOOTER-->
+
+        <script src="js/one_page_website.js"></script>
+
     </body>
 </html>
